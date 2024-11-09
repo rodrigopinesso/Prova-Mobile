@@ -1,0 +1,25 @@
+name: crud_viagem
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.3
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: ^5.0.0    # Dependência para mocks
+  build_runner: ^2.3.1 # Dependência para gerar código automaticamente
+
+flutter:
+  uses-material-design: true
